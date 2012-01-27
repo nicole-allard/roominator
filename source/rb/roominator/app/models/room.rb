@@ -7,8 +7,9 @@ class Room < ActiveRecord::Base
   EVENT_LENGTH_INCREMENT = 15.minutes.to_i
   EVENT_TITLE = "Roomination"
   ROOMINATOR_NAME = "Roominator"
-  ROOMINATOR_EMAIL = "roominator.test@gmail.com"
-  ROOMINATOR_CAL_ID = "roominator.test@gmail.com"
+  ROOMINATOR_EMAIL = "noreply@rapleaf.com"
+  ROOMINATOR_CAL_ID = "noreply@rapleaf.com"
+  # ROOMINATOR_CAL_ID = "nicole@rapleaf.com"
   
   def update_next_events(events = [])
     next_event = events.first
@@ -17,7 +18,7 @@ class Room < ActiveRecord::Base
       self.next_desc = next_event.title
       self.next_start = next_event.start_time
       self.next_end = next_event.end_time 
-      self.next_reserved_by = next_event.attendees.select{|a| a[:role] == "organizer"}.first[:name]
+      self.next_reserved_by = next_event.attendees.select{|a| a[:role] == "organizer"}.first[:name] rescue "Unknown"
     else
       self.next_desc = nil
       self.next_start = nil

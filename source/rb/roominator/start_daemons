@@ -1,0 +1,11 @@
+#!/bin/sh
+
+USERNAME=$1
+PASSWORD=$2
+
+echo "Starting daemons" > log/daemon_runner.out
+for i in {1..7}
+do
+  ruby lib/gcal_daemon.rb $USERNAME $PASSWORD $i >> log/daemon_runner.out &
+  echo "Daemon started $i"
+done

@@ -44,10 +44,10 @@ class RoomController < ApplicationController
     
     20.downto(1) do |i|
       if str[i..i] == " "
-        return [str[0..(i-1)], split_across_lines(str[(i+1)..(str.size)])].flatten
+        return [str[0..(i-1)], split_across_lines(str[(i+1)..-1])].flatten
       end
     end
-    [str[0..20], split_across_lines(str[20..(str.size)])].flatten
+    [str[0..20], split_across_lines(str[20..-1])].flatten
   end
   
   # gives slave id, reserve_pressed, cancel_pressed
@@ -59,6 +59,9 @@ class RoomController < ApplicationController
     
     if !display || !current_room
       render :text => err_data("Cannot find calendar for display with id #{display_id}")
+      return
+    elsif Time.now - current_room.updated_at > 5.minutes
+      render :text => err_data("Display #{display_id} has lost connection to calendar. Check daemon")
       return
     end
     

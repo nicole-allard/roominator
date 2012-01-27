@@ -1,23 +1,87 @@
 one:
-  id: 1
-  calendar_name: "Atlantis (np)"
-  room_name: Atlantis
-  calendar_id: "7jndk0trrstnl7hfvirgfphcvo@group.calendar.google.com"
-  reserve_pressed: false
-  cancel_pressed: false
+	id: 0
+	calendar_name: Africa (p)
+	room_name: Africa
+	calendar_id: rapleaf.com_38363632333835332d3831@resource.calendar.google.com
+	reserve_pressed: false
+	cancel_pressed: false
 
 two:
-  id: 2
-  calendar_name: "Thule (np)"
-  room_name: Thule
-  calendar_id: "4ia8ef8of4kc617bckt02lk7qg@group.calendar.google.com"
-  reserve_pressed: false
-  cancel_pressed: false
+	id: 1
+	calendar_name: Atlantis (np)
+	room_name: Atlantis
+	calendar_id: rapleaf.com_31383431333930372d323138@resource.calendar.google.com
+	reserve_pressed: false
+	cancel_pressed: false
 
 three:
-  id: 3
-  calendar_name: "N America (p+proj)"
-  room_name: "North America"
-  calendar_id: "vgp9rlg20asp8qefu9irdeedko@group.calendar.google.com"
-  reserve_pressed: false
-  cancel_pressed: false
+	id: 2
+	calendar_name: Australia (p)
+	room_name: Australia
+	calendar_id: rapleaf.com_35333038373939352d393434@resource.calendar.google.com
+	reserve_pressed: false
+	cancel_pressed: false
+
+four:
+	id: 3
+	calendar_name: Europe (np)
+	room_name: Europe
+	calendar_id: rapleaf.com_2d31363236303737393835@resource.calendar.google.com
+	reserve_pressed: false
+	cancel_pressed: false
+
+five:
+	id: 4
+	calendar_name: North America (p)
+	room_name: North America
+	calendar_id: rapleaf.com_2d3138353532373130353838@resource.calendar.google.com
+	reserve_pressed: false
+	cancel_pressed: false
+
+six:
+	id: 5
+	calendar_name: South America (p)
+	room_name: South America
+	calendar_id: rapleaf.com_32393138303838372d353336@resource.calendar.google.com
+	reserve_pressed: false
+	cancel_pressed: false
+
+seven:
+	id: 6
+	calendar_name: Thule (np)
+	room_name: Thule
+	calendar_id: rapleaf.com_2d31323333323538383233@resource.calendar.google.com
+	reserve_pressed: false
+	cancel_pressed: false
+
+eight:
+	id: 7
+	calendar_name: Asia (np)
+	room_name: Asia
+	calendar_id: rapleaf.com_32383433383537342d393635@resource.calendar.google.com
+	reserve_pressed: false
+	cancel_pressed: false
+
+nine:
+	id: 8
+	calendar_name: Bora Bora (np)
+	room_name: Bora Bora
+	calendar_id: bora_bora@rapleaf.com
+	reserve_pressed: false
+	cancel_pressed: false
+
+ten:
+	id: 9
+	calendar_name: Fiji (np)
+	room_name: Fiji
+	calendar_id: fiji@rapleaf.com
+	reserve_pressed: false
+	cancel_pressed: false
+
+eleven:
+	id: 10
+	calendar_name: Tonga (np)
+	room_name: Tonga
+	calendar_id: tonga@rapleaf.com
+	reserve_pressed: false
+	cancel_pressed: false

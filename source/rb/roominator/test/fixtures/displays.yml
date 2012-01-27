@@ -1,20 +1,76 @@
 one:
-  id: 1
-  room_id: 1
+  id: 0
+  room_id: 0
   prev_msg: 0
   prev_led: 0
   timer: 0
 
 two:
+  id: 1
+  room_id: 1
+  prev_msg: 0
+  prev_led: 0
+  timer: 0
+  
+three:
   id: 2
   room_id: 2
   prev_msg: 0
   prev_led: 0
   timer: 0
   
-three:
+four:
   id: 3
   room_id: 3
+  prev_msg: 0
+  prev_led: 0
+  timer: 0
+  
+five:
+  id: 4
+  room_id: 4
+  prev_msg: 0
+  prev_led: 0
+  timer: 0
+  
+six:
+  id: 5
+  room_id: 5
+  prev_msg: 0
+  prev_led: 0
+  timer: 0
+  
+seven:
+  id: 6
+  room_id: 6
+  prev_msg: 0
+  prev_led: 0
+  timer: 0
+  
+eight:
+  id: 7
+  room_id: 7
+  prev_msg: 0
+  prev_led: 0
+  timer: 0
+  
+nine:
+  id: 8
+  room_id: 8
+  prev_msg: 0
+  prev_led: 0
+  timer: 0
+  
+ten:
+  id: 9
+  room_id: 9
+  prev_msg: 0
+  prev_led: 0
+  timer: 0
+  
+eleven:
+  id: 10
+  room_id: 10
   prev_msg: 0
   prev_led: 0
   timer: 0

@@ -10,19 +10,19 @@ function toggle_edit_row(i) {
 }
 
 function create_blank_row() {
-  i = create_new_row("", "", "");
+  i = create_new_row("", "", "", "");
   toggle_edit_row(i);
   $('#cancel_link_' + i).hide();
 }
 
-function create_new_row(room_name, calendar_id, calendar_name) {
+function create_new_row(display_id, room_name, calendar_id, calendar_name) {
   var iteration = $("#rooms_table tr").length - 1;
   
   $("#rooms_table").append(
     "<tr id=row_" + iteration + ">" +
       "<td>" + // Room Number
         "<label name=\"label_r_number_" + iteration + "\" id=\"label_r_number_" + iteration + "\" class=\"edit_" + iteration + "\">" +
-          room_number +
+        display_id +
         "</label>" +
       "</td>" + 
       "<td>" + // Room Name
